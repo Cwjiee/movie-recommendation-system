@@ -14,4 +14,4 @@ fig = px.histogram(df, y="release_year", color="release_year")
 
 fig.show()
 
-st.plotly_chart(fig)
+st.plotly_chart(fig, use_container_width=True)
